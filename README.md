@@ -44,6 +44,10 @@ qorechain-proof-of-contribution/
 
 Proof of Contribution should be evaluated as a research framework, not as a reward claim. A credible contribution protocol must distinguish between activity volume and contribution quality. It must also define how attestations are produced, how disputes are handled, how reputation is protected from transfer or purchase, and how contributors retain agency over their public identity.
 
+## Relationship to Chronicle / Legacy Protocol
+
+This repository focuses on the contribution verification layer. It can be understood as a QoreChain-oriented research component of the broader [Chronicle / Legacy Protocol](https://github.com/satoshi-Qore/chronicle-legacy-protocol) vision, which studies protocol memory, contributor reputation, ecosystem archives, knowledge inheritance, AI-assisted mentorship, and long-term legacy preservation.
+
 ## Research Status
 
 | Area | Status | Notes |
