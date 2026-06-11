@@ -34,6 +34,7 @@ qorechain-proof-of-contribution/
 `-- docs/
     |-- Architecture.md
     |-- Attestation_Model.md
+    |-- Verification_Framework.md
     |-- Reputation_Layer.md
     |-- Contribution_Types.md
     |-- Use_Cases.md
@@ -43,6 +44,17 @@ qorechain-proof-of-contribution/
 ## Core Position
 
 Proof of Contribution should be evaluated as a research framework, not as a reward claim. A credible contribution protocol must distinguish between activity volume and contribution quality. It must also define how attestations are produced, how disputes are handled, how reputation is protected from transfer or purchase, and how contributors retain agency over their public identity.
+
+## Key Documents
+
+- [Architecture](./docs/Architecture.md)
+- [Attestation Model](./docs/Attestation_Model.md)
+- [Verification Framework](./docs/Verification_Framework.md)
+- [Reputation Layer](./docs/Reputation_Layer.md)
+- [Contribution Types](./docs/Contribution_Types.md)
+- [Use Cases](./docs/Use_Cases.md)
+- [Research Questions](./docs/Research_Questions.md)
+- [Whitepaper Draft](./paper/Proof_of_Contribution_Whitepaper.md)
 
 ## Relationship to Chronicle / Legacy Protocol
 
@@ -55,6 +67,7 @@ This repository focuses on the contribution verification layer. It can be unders
 | Whitepaper | Initial draft | Defines the research problem and protocol framing |
 | Architecture | Initial draft | Outlines possible protocol components |
 | Attestation model | Initial draft | Describes verification and evidence layers |
+| Verification framework | Initial draft | Defines evidence quality, review status, dispute flow, and verification criteria |
 | Reputation layer | Initial draft | Frames contribution reputation as non-transferable and evidence-aware |
 | Contribution types | Initial draft | Classifies technical, educational, governance, and infrastructure work |
 | Use cases | Initial draft | Identifies practical ecosystem applications |
