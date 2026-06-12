@@ -10,6 +10,16 @@ In emerging blockchain networks, many valuable contributions are not limited to 
 
 This repository examines whether a Proof of Contribution framework could help preserve contribution history while protecting neutrality, privacy, and resistance to manipulation.
 
+## Position within Chronicle / Legacy Protocol
+
+This repository should be read as a focused sub-proposal connected to [Chronicle / Legacy Protocol](https://github.com/satoshi-Qore/chronicle-legacy-protocol).
+
+Chronicle / Legacy Protocol is the broader research framework for a Protocol Memory Layer. It studies how decentralized ecosystems may preserve contribution history, governance context, knowledge inheritance, contributor reputation, archival records, and long-term legacy.
+
+QoreChain Proof of Contribution focuses on one narrower component of that framework: how contribution claims can be submitted, reviewed, verified, attested, disputed, and preserved as evidence-aware records. In a later specification phase, this work could inform Chronicle's contribution verification, attestation, and reputation layers.
+
+This repository does not claim to implement Chronicle. It provides a research module that can be evaluated independently while remaining aligned with the broader protocol memory research direction.
+
 ## Research Scope
 
 - Verified human contribution records
@@ -60,6 +70,15 @@ Proof of Contribution should be evaluated as a research framework, not as a rewa
 
 This repository focuses on the contribution verification layer. It can be understood as a QoreChain-oriented research component of the broader [Chronicle / Legacy Protocol](https://github.com/satoshi-Qore/chronicle-legacy-protocol) vision, which studies protocol memory, contributor reputation, ecosystem archives, knowledge inheritance, AI-assisted mentorship, and long-term legacy preservation.
 
+The relationship is intentionally modular:
+
+| Repository | Research Role |
+|---|---|
+| Chronicle / Legacy Protocol | Broader Protocol Memory Layer framework |
+| QoreChain Proof of Contribution | Focused contribution verification and attestation sub-proposal |
+
+This modular structure allows contribution verification to be studied in detail without forcing the broader Chronicle framework into premature implementation assumptions.
+
 ## Research Status
 
 | Area | Status | Notes |
@@ -69,6 +88,7 @@ This repository focuses on the contribution verification layer. It can be unders
 | Attestation model | Initial draft | Describes verification and evidence layers |
 | Verification framework | Initial draft | Defines evidence quality, review status, dispute flow, and verification criteria |
 | Reputation layer | Initial draft | Frames contribution reputation as non-transferable and evidence-aware |
+| Chronicle integration path | Initial draft | Positions Proof of Contribution as a possible module within the broader memory layer |
 | Contribution types | Initial draft | Classifies technical, educational, governance, and infrastructure work |
 | Use cases | Initial draft | Identifies practical ecosystem applications |
 | Research questions | Initial draft | Tracks open questions and future validation needs |
